@@ -35,7 +35,12 @@ SetTitleMatchMode, RegEx
 ; ################### INITIALIZE ###################
 ; ##################################################
 SetWorkingDir %A_ScriptDir%
-FileGetVersion, VER, %A_ScriptFullPath%
+;@Ahk2Exe-IgnoreBegin
+VERSION := "${3:[version]}"
+;@Ahk2Exe-IgnoreEnd
+/*@Ahk2Exe-Keep
+FileGetVersion, VERSION, %A_ScriptFullPath%
+*/
 TITLE = ${9:${1:[project]}}
 iniFile = ${10:${9:${1:[project]}}}.ini
 IfNotExist, ${10:${9:${1:[project]}}}.ini
