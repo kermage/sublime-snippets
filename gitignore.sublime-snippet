@@ -1,0 +1,60 @@
+<snippet>
+    <content><![CDATA[
+# ------------------------------
+# .gitignore Defaults
+# ------------------------------
+
+# OS generated files
+._*
+.Spotlight-V100
+.Trashes
+Desktop.ini
+ehthumbs.db
+Thumbs.db
+
+# Temp files
+*.tmp
+*.bak
+*.swp
+
+# Archives
+*.7z
+*.bz2
+*.cab
+*.dmg
+*.jar
+*.gz
+*.iso
+*.rar
+*.tar*
+*.tgz
+*.zip
+
+# Compiled and Executables
+*.bin
+*.dll
+*.lnk
+*.msi
+*.exe
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Node dependencies
+node_modules/
+
+# Editor files
+*.sublime*
+sftp-config.json
+
+# ------------------------------
+# Specific Tracks and/or Ignores
+# ------------------------------
+
+
+]]></content>
+    <tabTrigger>ignore</tabTrigger>
+    <description>Git Ignore</description>
+</snippet>
