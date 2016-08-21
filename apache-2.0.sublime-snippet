@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[
+    <content><![CDATA[
 Copyright ${1:[yyyy]}, ${2:[name of copyright owner]}
 
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,6 +14,6 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ]]></content>
-	<tabTrigger>license</tabTrigger>
-	<description>Apache License 2.0</description>
+    <tabTrigger>license</tabTrigger>
+    <description>Apache License 2.0</description>
 </snippet>

@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[
+    <content><![CDATA[
 ; ##################################################
 ; ################### DIRECTIVES ###################
 ; ##################################################
@@ -22,7 +22,7 @@
 #Persistent
 #SingleInstance force
 
-Process, Priority,, High 
+Process, Priority,, High
 SendMode Input
 SetBatchLines, -1
 SetKeyDelay, -1
@@ -44,7 +44,7 @@ FileGetVersion, VERSION, %A_ScriptFullPath%
 TITLE = ${9:${1:[project]}}
 iniFile = ${10:${9:${1:[project]}}}.ini
 IfNotExist, ${10:${9:${1:[project]}}}.ini
-	FileInstall, ${10:${9:${1:[project]}}}.ini, ${10:${9:${1:[project]}}}.ini
+    FileInstall, ${10:${9:${1:[project]}}}.ini, ${10:${9:${1:[project]}}}.ini
 
 
 ; ##################################################
@@ -59,8 +59,9 @@ return ; =========== END OF AUTO EXECUTE ===========
 ; #################### INCLUDES ####################
 ; ##################################################
 
+
 ]]></content>
-	<tabTrigger>ahkproj</tabTrigger>
-	<description>AHK Project</description>
-	<!-- <scope>source.ahk</scope> -->
+    <tabTrigger>ahkproj</tabTrigger>
+    <description>AHK Project</description>
+    <!-- <scope>source.ahk</scope> -->
 </snippet>
