@@ -42,8 +42,9 @@ Thumbs.db
 *.sql
 *.sqlite
 
-# Node dependencies
+# Dependencies
 node_modules/
+bower_components/
 
 # Editor files
 *.sublime*
