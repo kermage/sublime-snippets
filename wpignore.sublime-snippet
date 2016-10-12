@@ -29,6 +29,8 @@ index.php
 /readme.html
 /sitemap.xml
 /xmlrpc.php
+!/wp-content/themes/*/index.php
+!/wp-content/plugins/*/index.php
 
 # ------------------------------
 # Specific Tracks and/or Ignores
