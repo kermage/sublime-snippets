@@ -559,8 +559,9 @@
 /templates/index.html
 /tmp/*
 
-index.php
+/configuration.php
 /htaccess.txt
+/index.php
 /LICENSE.txt
 /README.txt
 /robots.txt*
