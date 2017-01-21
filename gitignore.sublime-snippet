@@ -26,7 +26,7 @@ Thumbs.db
 *.gz
 *.iso
 *.rar
-*.tar*
+*.tar
 *.tgz
 *.zip
 
@@ -49,6 +49,11 @@ bower_components/
 # Editor files
 *.sublime*
 sftp-config.json
+
+# Server files
+.htaccess
+robots.txt
+sitemap.xml
 
 # ------------------------------
 # Specific Tracks and/or Ignores
