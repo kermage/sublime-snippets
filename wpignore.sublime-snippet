@@ -9,8 +9,11 @@
 /wp-comments-post.php
 /wp-config-sample.php
 /wp-config.php
+/wp-content/index.php
 /wp-content/plugins/hello.php
+/wp-content/plugins/index.php
 /wp-content/plugins/akismet/
+/wp-content/themes/index.php
 /wp-content/themes/twenty*/
 /wp-content/upgrade/
 /wp-content/uploads/
@@ -24,13 +27,11 @@
 /wp-signup.php
 /wp-trackback.php
 
-index.php
+/index.php
 /license.txt
 /readme.html
 /sitemap.xml
 /xmlrpc.php
-!/wp-content/themes/*/index.php
-!/wp-content/plugins/*/index.php
 
 # ------------------------------
 # Specific Tracks and/or Ignores
