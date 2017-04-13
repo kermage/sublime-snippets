@@ -52,6 +52,7 @@ sftp-config.json
 
 # Server files
 .htaccess
+/google*.html
 robots.txt
 sitemap.xml
 
