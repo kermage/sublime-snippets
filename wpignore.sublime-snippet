@@ -32,6 +32,11 @@
 /readme.html
 /xmlrpc.php
 
+/wp-content/advanced-cache.php
+/wp-content/cache/
+/wp-content/db.php
+/wp-content/object-cache.php
+
 # ------------------------------
 # Specific Tracks and/or Ignores
 # ------------------------------
