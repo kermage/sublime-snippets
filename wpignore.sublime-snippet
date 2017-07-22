@@ -36,6 +36,7 @@
 /wp-content/cache/
 /wp-content/db.php
 /wp-content/object-cache.php
+/wp-content/w3tc-config/
 
 # ------------------------------
 # Specific Tracks and/or Ignores
