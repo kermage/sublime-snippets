@@ -50,6 +50,8 @@ bower_components/
 # Editor files
 *.sublime*
 sftp-config.json
+.history/
+.vscode/
 
 # Server files
 .htaccess
