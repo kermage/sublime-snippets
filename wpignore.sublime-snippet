@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 # ------------------------------
-# Ignore WordPress defaults
+# Ignore WordPress Defaults
 # ------------------------------
 /wp-activate.php
 /wp-admin/
@@ -32,15 +32,16 @@
 /readme.html
 /xmlrpc.php
 
+# ------------------------------
+# Specific Tracks and/or Ignores
+# ------------------------------
+
+# W3TC files and config
 /wp-content/advanced-cache.php
 /wp-content/cache/
 /wp-content/db.php
 /wp-content/object-cache.php
 /wp-content/w3tc-config/
-
-# ------------------------------
-# Specific Tracks and/or Ignores
-# ------------------------------
 
 
 ]]></content>
