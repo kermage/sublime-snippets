@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_URI} ^/wp-content/uploads/
+    RewriteRule ^(.*)\$ ${1:[LIVE_URL]}/\$1 [L]
+</IfModule>
+
+
+]]></content>
+    <tabTrigger>wp</tabTrigger>
+    <description>Local Uploads</description>
+</snippet>
