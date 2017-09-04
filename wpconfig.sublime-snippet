@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+define( 'WP_HOME', '${1:[WORKING_URL]}' );
+define( 'WP_SITEURL', '${2:${1:[WORKING_URL]}}' );
+
+
+]]></content>
+    <tabTrigger>wp</tabTrigger>
+    <description>Local Config</description>
+</snippet>
