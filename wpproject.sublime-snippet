@@ -1,0 +1,48 @@
+<snippet>
+    <content><![CDATA[
+{
+    "folders":
+    [
+        {
+            "path": ".",
+            "file_exclude_patterns":
+            [
+                "wp-activate.php",
+                "wp-blog-header.php",
+                "wp-comments-post.php",
+                "wp-config-sample.php",
+                "wp-config.php",
+                "wp-content/index.php",
+                "wp-content/plugins/hello.php",
+                "wp-content/plugins/index.php",
+                "wp-content/themes/index.php",
+                "wp-cron.php",
+                "wp-links-opml.php",
+                "wp-load.php",
+                "wp-login.php",
+                "wp-mail.php",
+                "wp-settings.php",
+                "wp-signup.php",
+                "wp-trackback.php",
+                "index.php",
+                "license.txt",
+                "readme.html",
+                "xmlrpc.php"
+            ],
+            "folder_exclude_patterns":
+            [
+                "wp-admin",
+                "wp-content/plugins/akismet",
+                "wp-content/themes/twenty*",
+                "wp-content/upgrade",
+                "wp-content/uploads",
+                "wp-includes"
+            ]
+        }
+    ]
+}
+
+]]></content>
+    <tabTrigger>wp</tabTrigger>
+    <description>Project Settings</description>
+</snippet>
