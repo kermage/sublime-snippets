@@ -11,7 +11,7 @@
                 "wp-blog-header.php",
                 "wp-comments-post.php",
                 "wp-config-sample.php",
-                "wp-config.php",
+                // "wp-config.php",
                 "wp-content/index.php",
                 "wp-content/plugins/hello.php",
                 "wp-content/plugins/index.php",
