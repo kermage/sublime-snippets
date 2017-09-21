@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-http://dummyimage.com/${1:width}x${2:height}.${3:format}/${4:background}/${5:color}&text=$6
+https://dummyimage.com/${1:width}x${2:height}.${3:format}/${4:background}/${5:color}&text=$6
 ]]></content>
     <tabTrigger>placeholder</tabTrigger>
     <description>dummyimage</description>
