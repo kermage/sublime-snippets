@@ -13,9 +13,6 @@
                 "wp-config-sample.php",
                 // "wp-config.php",
                 "wp-content/index.php",
-                "wp-content/plugins/hello.php",
-                "wp-content/plugins/index.php",
-                "wp-content/themes/index.php",
                 "wp-cron.php",
                 "wp-links-opml.php",
                 "wp-load.php",
@@ -32,11 +29,34 @@
             "folder_exclude_patterns":
             [
                 "wp-admin",
-                "wp-content/plugins/akismet",
-                "wp-content/themes/twenty*",
+                "wp-content/plugins",
+                "wp-content/themes",
                 "wp-content/upgrade",
                 "wp-content/uploads",
                 "wp-includes"
+            ]
+        },
+        {
+            "path": "wp-content/plugins",
+            "file_exclude_patters":
+            [
+                "wp-content/plugins/hello.php",
+                "wp-content/plugins/index.php",
+            ],
+            "folder_exclude_patterns":
+            [
+                "wp-content/plugins/akismet"
+            ]
+        },
+        {
+            "path": "wp-content/themes",
+            "file_exclude_patters":
+            [
+                "wp-content/themes/index.php",
+            ],
+            "folder_exclude_patterns":
+            [
+                "wp-content/themes/twenty*",
             ]
         }
     ]
