@@ -58,6 +58,10 @@
             [
                 "wp-content/themes/twenty*",
             ]
+        },
+        {
+            "path": "wp-content/themes/${1:[THEME_SLUG]}",
+            "name": "${2:[THEME_NAME]}",
         }
     ]
 }
