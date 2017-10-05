@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-define( 'WP_HOME', ${1:'http://' . $_SERVER['SERVER_NAME']} );
-define( 'WP_SITEURL', ${2:${1:'http://' . $_SERVER['SERVER_NAME']}} );
+define( 'WP_HOME', ${1:'http://' . \$_SERVER['SERVER_NAME']} );
+define( 'WP_SITEURL', ${2:${1:'http://' . \$_SERVER['SERVER_NAME']}} );
 
 
 ]]></content>
