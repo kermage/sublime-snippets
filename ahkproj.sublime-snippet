@@ -26,9 +26,8 @@ Process, Priority,, High
 SendMode Input
 SetBatchLines, -1
 SetKeyDelay, -1
-SetTitleMatchMode, 2
-SetTitleMatchMode, Slow
 SetTitleMatchMode, RegEx
+SetTitleMatchMode, Slow
 
 
 ; ##################################################
