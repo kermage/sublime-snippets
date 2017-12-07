@@ -338,7 +338,7 @@
                 "plugins/user/index.html",
                 "plugins/index.html",
                 "templates/index.html",
-                "configuration.php",
+                // "configuration.php",
                 "htaccess.txt",
                 "index.php",
                 "LICENSE.txt",
