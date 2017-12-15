@@ -29,6 +29,7 @@
             "folder_exclude_patterns":
             [
                 "wp-admin",
+                "wp-content/languages",
                 "wp-content/plugins",
                 "wp-content/themes",
                 "wp-content/upgrade",
