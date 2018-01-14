@@ -39,7 +39,7 @@
         },
         {
             "path": "wp-content/plugins",
-            "file_exclude_patters":
+            "file_exclude_patterns":
             [
                 "wp-content/plugins/hello.php",
                 "wp-content/plugins/index.php",
@@ -51,7 +51,7 @@
         },
         {
             "path": "wp-content/themes",
-            "file_exclude_patters":
+            "file_exclude_patterns":
             [
                 "wp-content/themes/index.php",
             ],

@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 # ------------------------------
-# Ignore Joomla defaults
+# Ignore Joomla Defaults
 # ------------------------------
 /administrator/cache/
 /administrator/components/com_admin/
