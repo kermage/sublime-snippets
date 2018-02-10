@@ -56,6 +56,7 @@ sftp-config.json
 # Server files
 .htaccess
 cgi-bin/
+error_log
 /google*.html
 php.ini
 robots.txt
