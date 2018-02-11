@@ -58,6 +58,7 @@
             "folder_exclude_patterns":
             [
                 "wp-content/themes/twenty*",
+                "wp-content/themes/${1:[THEME_SLUG]}"
             ]
         },
         {
