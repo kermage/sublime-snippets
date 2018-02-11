@@ -42,7 +42,7 @@
             "file_exclude_patterns":
             [
                 "wp-content/plugins/hello.php",
-                "wp-content/plugins/index.php",
+                "wp-content/plugins/index.php"
             ],
             "folder_exclude_patterns":
             [
@@ -53,7 +53,7 @@
             "path": "wp-content/themes",
             "file_exclude_patterns":
             [
-                "wp-content/themes/index.php",
+                "wp-content/themes/index.php"
             ],
             "folder_exclude_patterns":
             [
@@ -63,7 +63,7 @@
         },
         {
             "path": "wp-content/themes/${1:[THEME_SLUG]}",
-            "name": "${2:[THEME_NAME]}",
+            "name": "${2:[THEME_NAME]}"
         }
     ]
 }
