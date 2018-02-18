@@ -37,6 +37,8 @@
 # Specific Tracks and/or Ignores
 # ------------------------------
 
+/wp-content/plugins/
+
 # W3TC files and config
 /wp-content/advanced-cache.php
 /wp-content/cache/
