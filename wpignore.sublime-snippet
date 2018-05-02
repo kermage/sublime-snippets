@@ -38,6 +38,7 @@
 # ------------------------------
 
 /wp-content/plugins/
+!/wp-content/themes/**/*.zip
 
 # W3TC files and config
 /wp-content/advanced-cache.php
