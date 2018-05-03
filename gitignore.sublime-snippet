@@ -46,6 +46,7 @@ Thumbs.db
 # Dependencies
 node_modules/
 bower_components/
+vendor/
 
 # Editor files
 *.sublime*
