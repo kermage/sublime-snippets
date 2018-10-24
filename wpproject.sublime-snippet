@@ -65,7 +65,12 @@
             "path": "wp-content/themes/${1:[THEME_SLUG]}",
             "name": "${2:[THEME_NAME]}"
         }
-    ]
+    ],
+    "settings":
+    {
+        "SublimeLinter.linters.phpcs.executable": "\${project_path}/wp-content/themes/${1:[THEME_SLUG]}/vendor/bin/phpcs.bat", 
+        "SublimeLinter.linters.phpcs.args": "--standard='\${project_path}/wp-content/themes/${1:[THEME_SLUG]}/phpcs.xml'"
+    }
 }
 
 ]]></content>
