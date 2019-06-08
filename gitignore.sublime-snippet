@@ -60,6 +60,7 @@ cgi-bin/
 error_log
 /google*.html
 php.ini
+php_errorlog
 robots.txt
 sitemap.xml
 
