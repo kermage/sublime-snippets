@@ -52,6 +52,7 @@ vendor/
 *.sublime*
 sftp-config.json
 .history/
+.idea/
 .vscode/
 
 # Server files
