@@ -40,12 +40,19 @@
 /wp-content/plugins/
 !/wp-content/themes/**/*.zip
 
+# UpdraftPlus files
+/wp-content/updraft/
+
 # W3TC files and config
 /wp-content/advanced-cache.php
 /wp-content/cache/
 /wp-content/db.php
 /wp-content/object-cache.php
 /wp-content/w3tc-config/
+
+# Wordfence files
+/wordfence-waf.php
+/wp-content/wflogs/
 
 
 ]]></content>
