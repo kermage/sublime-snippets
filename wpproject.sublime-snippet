@@ -69,11 +69,14 @@
     "settings":
     {
         "SublimeLinter.linters.eslint.executable": "\${project_path}/wp-content/themes/${1:[THEME_SLUG]}/node_modules/.bin/eslint.cmd",
-        "SublimeLinter.linters.eslint.args": "--config='\${project_path}/wp-content/themes/${1:[THEME_SLUG]}/.eslintrc.yml'",
+        "SublimeLinter.linters.eslint.working_dir": "\${project_path}/wp-content/themes/${1:[THEME_SLUG]}",
+        "SublimeLinter.linters.eslint.args": "--config='\${project_path}/wp-content/themes/${1:[THEME_SLUG]}/.eslintrc'",
         "SublimeLinter.linters.phpcs.executable": "\${project_path}/wp-content/themes/${1:[THEME_SLUG]}/vendor/bin/phpcs.bat",
+        "SublimeLinter.linters.phpcs.working_dir": "\${project_path}/wp-content/themes/${1:[THEME_SLUG]}",
         "SublimeLinter.linters.phpcs.args": "--standard='\${project_path}/wp-content/themes/${1:[THEME_SLUG]}/phpcs.xml'",
         "SublimeLinter.linters.stylelint.executable": "\${project_path}/wp-content/themes/${1:[THEME_SLUG]}/node_modules/.bin/stylelint.cmd",
-        "SublimeLinter.linters.stylelint.args": "--config='\${project_path}/wp-content/themes/${1:[THEME_SLUG]}/.stylelintrc.yml'",
+        "SublimeLinter.linters.stylelint.working_dir": "\${project_path}/wp-content/themes/${1:[THEME_SLUG]}",
+        "SublimeLinter.linters.stylelint.args": "--config='\${project_path}/wp-content/themes/${1:[THEME_SLUG]}/.stylelintrc'",
     }
 }
 
